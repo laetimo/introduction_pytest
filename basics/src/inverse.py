@@ -6,8 +6,8 @@ def inverse(chaine):
         if not isinstance(element, str):
             raise ValueError("Vous devez passer une chaine de caractères")
         
-    if len(chaine) == 4:
-        chaine.pop()
+    # if len(chaine) == 4:
+    #     chaine.pop()
 
     chaine = "".join(chaine)
 
