@@ -13,6 +13,9 @@ def inverse(chaine):
 
     return chaine[::-1]
 
+def minus(a,b):
+    return a-b
+
 if __name__ == "__main__":           # si j'exécute directement le fichier dans lequel je suis
     print(inverse(["a", "b", "c", "d"]))
     # print(inverse(["a", "b", 0, "d"]))
