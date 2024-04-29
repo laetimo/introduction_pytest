@@ -5,7 +5,7 @@ def test_long_list():
     assert inverse(["a", "b", "c", "d", "e"]) == "edcba"
 
 def test_four_elements_list():
-    assert inverse(["a", "b", "c", "d"]) == "cba"
+    assert inverse(["a", "b", "c", "d"]) == "dcba"
 
 def test_fail_when_integer():
     with pytest.raises(ValueError): # equivalent de l'assertion d'un erreur
